@@ -4,7 +4,7 @@ Maskedu is an automated Twitter scheduling bot built with Rust.
 
 Step-by-step walkthrough video would be released [here](https://rust-telescope.live/hacking-with-rust/building-automated-twitter-schedule-bot).
 
-> This is part of the [Rust telescope's Hacking With Rust](https://rust-telescope.live) video cast.
+> This is part of the [Rust telescope's Hacking With Rust](https://rust-telescope.live/hacking-with-rust) video cast.
 
 ## Features
 
