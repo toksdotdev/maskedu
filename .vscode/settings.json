@@ -1,0 +1,4 @@
+{
+  "editor.formatOnSaveTimeout": 200,
+  "rust.wait_to_build": 200
+}

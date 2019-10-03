@@ -1,0 +1,13 @@
+CREATE TABLE `users` (
+	-- `id` INT unsigned NOT NULL AUTO_INCREMENT,
+	`id` INT NOT NULL AUTO_INCREMENT,
+	-- `email` VARCHAR(1000) NOT NULL,
+	`twitter_id` BIGINT UNSIGNED NOT NULL,
+	`twitter_screen_name` VARCHAR(50) NOT NULL,
+	`twitter_key` VARCHAR(100) NOT NULL,
+	`twitter_secret` VARCHAR(100) NOT NULL,
+	`created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	`updated_at` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	-- UNIQUE KEY `users_email_index` (`email`) USING HASH,
+	PRIMARY KEY (`id`)
+);
