@@ -1,6 +1,6 @@
 # Maskedu 🤖
 
-Maskedu an automated Twitter scheduling bot built with Rust.
+Maskedu is an automated Twitter scheduling bot built with Rust.
 
 Step-by-step walkthrough video would be released [here](https://rust-telescope.live/hacking-with-rust/building-automated-twitter-schedule-bot).
 
@@ -19,10 +19,12 @@ Step-by-step walkthrough video would be released [here](https://rust-telescope.l
 - [ ] Get all tweets (by default, get but scheduled & unsheduled)
   - [ ] If category (scheduled or unscheduled) is provided, return that instead.
 
-## Requirement
+## Stack
 
 - Database (`Postgres`)
-- Rust
+- Rust 
+- Web framework ([`tower-web`](https://github.com/carllerche/tower-web))
+
 
 ## Contributing
 
