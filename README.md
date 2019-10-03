@@ -1,22 +1,33 @@
-# Maskedu
+# Maskedu 🤖
 
-Allow use schedule tweet to be posted at a later time. Scheduled tweets are bounded with a timeframe for which they should be posted.
+Maskedu an automated Twitter scheduling bot built with Rust.
 
-Once the scheduled time is attained, the tweet gets posted.
+Step-by-step walkthrough video would be released [here](https://rust-telescope.live/hacking-with-rust/building-automated-twitter-schedule-bot).
 
-> This is part of the [Rust telescope's Hacking With Rust](https://rust-telescope.live) video series.
+> This is part of the [Rust telescope's Hacking With Rust](https://rust-telescope.live) video cast.
+
+## Features
+
+- Allow user schedule tweet to be posted at a later time.
+- Scheduled tweets are bounded with a timeframe for which they should be posted.
+- Once the scheduled time is attained, the tweet gets posted.
 
 ## Todo
 
-- [ ] Add tweet with a schedule
+- [x] Add tweet with a schedule
 - [ ] Modify tweet scheduled but yet to be posted
 - [ ] Get all tweets (by default, get but scheduled & unsheduled)
-  - [ ] if category (scheduled or unscheduled) is provided, return that instead.
+  - [ ] If category (scheduled or unscheduled) is provided, return that instead.
 
 ## Requirement
 
-- Database
-- Scheduler
+- Database (`Postgres`)
+- Rust
 
 ## Contributing
-mongasaw
+
+If you find any issue, bug or missing feature, please kindly create an issue or submit a pull request, as it will go a long way in helping other [Rustaceans](https://www.rust-lang.org/community) grow.
+
+## License
+
+This repository is open-sourced software licensed under the [MIT](.LICENSE) license.
